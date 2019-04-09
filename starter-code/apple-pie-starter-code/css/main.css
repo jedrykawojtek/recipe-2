@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body {
+      font-family: 'Open Sans';
+    }
+
+/*Header section*/
+
+.apple-pie{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/apple-pie.jpg');
+    display: flex;
+    display: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.apple-pie h1{
+    color: white;
+    font-size: 5em;
+}
+
+.introduction-text {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    text-size-adjust: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-info {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 3% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fixed;
+
+}
+.recipe-info img{
+    width:35%;
+}
+
+/*Ingredients section */
+
+.container{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 3% 10%;
+    border-top-style:solid ;
+    border-top-color: #999999;
+}
+
+.container h2{
+    text-align: left;
+    padding: 10px 0px 15px 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list li::before{
+    content: "- ";
+}
+
+.list { 
+    margin-left: 50px;
+
+}
+.cooking-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.cooking-info img{
+    width:30%;
+}
+
+/*Directions section */
+
+.list2 { 
+    margin-left: 30px;
+    list-style: none;
+}
